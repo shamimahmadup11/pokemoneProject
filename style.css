@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: 100%;
+    background-color: rgb(64, 63, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.input-field{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+}
+.select>label{
+    color: white;
+    font-size: 20px;
+}
+.select>select{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+   cursor: pointer;
+}
+#btn1{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+#btn2{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: greenyellow;
+    
+}
+.input-text>input{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+}
+.sow-data{
+    min-height:100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.sow-data>.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    box-shadow: 10px 10px 10px rgb(67, 64, 64), 10px 10px 10px rgb(92, 87, 87);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.card>.card-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    box-shadow: 10px 10px 10px rgb(37, 33, 33),;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+     font-size: 20px;
+}
